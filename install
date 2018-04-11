@@ -2,8 +2,8 @@
 chmod +x phishy.py
 cd .web/fb_standard/
 chmod +x fbs
-cd 
-cd phishy
+cd $Home
+cd Phishy
 cd .web/google_standard/
 chmod +x gs
 pkg install -y php openssh python2
