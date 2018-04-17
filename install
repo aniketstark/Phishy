@@ -6,4 +6,4 @@ cd $Home
 cd Phishy
 cd .web/google_standard/
 chmod +x gs
-pkg install -y php openssh python2 wget git zip
+pkg install -y php openssh python2 
