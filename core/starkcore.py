@@ -78,7 +78,11 @@ def fbab():
 		
 	elif fbab == "3":
 		sys.exit()
-		
+
+def Update():
+	os.system("git pull")
+	restartprogram()
+
 def restartprogram():
         python = sys.executable
         os.execl(python, python, * sys.argv)
